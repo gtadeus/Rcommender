@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+
+<main>
+    <div>
+        <h1>Results:</h1>
+    </div>
+    <u1>
+        <% places.forEach(function(place){ %>
+        <li><%= place.name %></li>
+        
+        <% }) %>
+    </u1>
+        
+</main>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+</body>
+</html>
